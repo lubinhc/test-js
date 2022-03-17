@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: rgb(253, 253, 253);
+    color: #121212;
+}
+
+.title{
+    color: #2600ad;
+    text-align: center;
+    padding: 50px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+button{
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: white;
+    cursor: pointer;
+    border: 2px solid #3f9fbd;
+    transition: all .5s;
+}
+
+button:hover{
+    background-color: #3f9fbd;
+}
